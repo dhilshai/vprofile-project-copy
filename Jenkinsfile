@@ -6,7 +6,7 @@ pipeline
 		stage('printing')
 		{
 		    	steps   {
-					sh(echo "Build Completed")	
+					sh ' echo  " Build Completed " '	
 				}
 		}
 	}
